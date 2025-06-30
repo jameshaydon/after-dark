@@ -136,10 +136,23 @@ article [itemprop="summary"] p {
 
 @media screen and (min-width: 768px) {
   html {
-    font-size: 1em;
+    font-size: 0.85em;
   }
 
   .container {
     max-width: 50rem;
   }
+}
+
+
+.hack em {
+  font-style: italic;
+}
+
+.hack img {
+  max-width: 100%;
+}
+
+.hack .code-label {
+  display: none;
 }
